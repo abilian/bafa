@@ -104,3 +104,14 @@ ENV/
 # IDE settings
 .vscode/
 .idea/
+
+# Local stuff
+/sandbox/
+
+# Don't commit pinned deps.
+/poetry.lock
+
+# Ignore for now
+/data/
+/docs/
+/scripts/
